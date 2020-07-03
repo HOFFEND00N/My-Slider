@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    max-height: 30px;
+    align-self: flex-end;
+    margin: 0 5px;
+}
+
+button:hover {
+    outline: none;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+.active {
+    display: block;
+    animation-duration: 1s;
+}
+
+.hidden {
+    display: none;
+    animation-duration: 1s;
+}
